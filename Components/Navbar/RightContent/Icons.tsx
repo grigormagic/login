@@ -23,8 +23,66 @@ const Icons: React.FC = () => {
         >
           <Icon as={FaRunning} />
         </Flex>
+
+        <Flex
+          ml={1.5}
+          mr={1.5}
+          padding={1}
+          cursor="pointer"
+          borderRadius={4}
+          _hover={{ bg: "gray.200" }}
+        >
+          <Icon as={GiHockey} />
+        </Flex>
+
+        <Flex
+          ml={1.5}
+          mr={1.5}
+          padding={1}
+          cursor="pointer"
+          borderRadius={4}
+          _hover={{ bg: "gray.200" }}
+        >
+          <Icon as={GiTennisRacket} />
+        </Flex>
       </Flex>
-      <></>
+
+      <>
+        <Flex align="center" borderRight="1px solid" borderColor="gray.200">
+          <Flex
+            ml={1.5}
+            mr={1.5}
+            padding={1}
+            cursor="pointer"
+            borderRadius={4}
+            _hover={{ bg: "gray.200" }}
+          >
+            <Icon as={FaFutbol} />
+          </Flex>
+
+          <Flex
+            ml={1.5}
+            mr={1.5}
+            padding={1}
+            cursor="pointer"
+            borderRadius={4}
+            _hover={{ bg: "gray.200" }}
+          >
+            <Icon as={FaBasketballBall} />
+          </Flex>
+
+          <Flex
+            ml={1.5}
+            mr={1.5}
+            padding={1}
+            cursor="pointer"
+            borderRadius={4}
+            _hover={{ bg: "gray.200" }}
+          >
+            <Icon as={GiFrisbee} />
+          </Flex>
+        </Flex>
+      </>
     </Flex>
   );
 };
