@@ -33,7 +33,7 @@ const ResetPassword: React.FC<ResetPasswordProps> = () => {
   useEffect(() => {
     if (sendAttempt && !error) {
       setSuccess(true);
-    }
+    }    
   }, [error, sendAttempt]);
 
   return (
@@ -43,7 +43,7 @@ const ResetPassword: React.FC<ResetPasswordProps> = () => {
         Reset your password
       </Text>
       {success ? (
-        <Text mb={4}>Check your email :)</Text>
+        <Text mb={4}>Check your email :</Text>
       ) : (
         <>
           <Text fontSize="sm" textAlign="center" mb={2}>
